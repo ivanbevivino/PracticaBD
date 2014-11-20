@@ -27,6 +27,6 @@ public class BaseDeDatos extends SQLiteOpenHelper {
 		 db.execSQL("DROP TABLE Tabla");
 	     db.execSQL(sqlCreate);
 	}
-}	// COMPLETAR !
+}	
 	
 
