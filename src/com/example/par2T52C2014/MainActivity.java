@@ -17,7 +17,7 @@ public class MainActivity extends Activity {
 	private Button botonListar;
 	private BaseDeDatos b;
 	private SQLiteDatabase db;
-	private Listar lista;
+
 	//COMPLETAR !
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

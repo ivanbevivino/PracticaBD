@@ -7,16 +7,18 @@ import android.os.Bundle;
 import android.widget.TextView;
 
 public class Listar extends Activity {
+	
 	private TextView textoResultado;
-
 	private SQLiteDatabase d;
 	
 
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
+		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_listar);
+		
 		BaseDeDatos db = new BaseDeDatos(this, "Tabla", null, 1);
 		d= db.getReadableDatabase();
 		textoResultado = (TextView) findViewById(R.id.tvResultado);
