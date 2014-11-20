@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Parcial T5</string>
+    <string name="dni">DNI - Numerico </string>
+    <string name="nombre">Nombre</string>
+    <string name="btnAlta">Alta</string>
+  	<string name="btnListar">Listar</string>
+  	 <string name="Resultado">ESTAS EN LISTAR</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_listar">Listar</string>
+    
+</resources>
